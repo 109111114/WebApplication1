@@ -78,6 +78,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Web.config.Debug.ZaWaRuDo">
+      <DependentUpon>Web.config.ZaWaRuDo</DependentUpon>
+    </None>
+    <None Include="Web.config.ZaWaRuDo" />
+    <None Include="Web.config.Release.ZaWaRuDo">
+      <DependentUpon>Web.config.ZaWaRuDo</DependentUpon>
+    </None>
     <None Include="Web.config.maccha" />
     <None Include="Web.config.Debug.maccha">
       <DependentUpon>Web.config.maccha</DependentUpon>
